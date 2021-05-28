@@ -28,12 +28,12 @@ def read_requirements(filename):
 
 long_description=read_file("README.md")
 setup(
-    name='tkitDemo', #修改包名字-
-    version='0.0.0.2                                 ',
-    description='Terry toolkit tkitDemo',
+    name='tkitDCN', #修改包名字-
+    version='0.0.0.3',
+    description='Terry toolkit tkitDCN 动态图卷机',
     author='Terry Chan',
     author_email='napoler2008@gmail.com',
-    url='http://www.terrychan.org/python_libs_demo/',
+    url='https://github.com/napoler/tkit_dcn_pytorch',
     install_requires=read_requirements('requirements.txt'),  # 指定需要安装的依赖
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -42,7 +42,7 @@ setup(
 
 
     # ],
-    packages=['Demo'])
+    packages=['tkit_dcn'])
 
 """
 pip freeze > requirements.txt
